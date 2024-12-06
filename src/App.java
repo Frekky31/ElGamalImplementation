@@ -7,7 +7,7 @@ public class App {
         System.out.println("Decrypted: " + elGamal.Decrypt(chiffre));
 
         // Generate new keys
-        elGamal.GenerateKeys(1024);
+        elGamal.GenerateKeys(4096);
 
         // Encrypt and decrypt a message
         String encrypted = elGamal.Encrypt("Test");
